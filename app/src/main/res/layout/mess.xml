@@ -1,0 +1,286 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_in">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:columnCount="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/divert_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/divert_ch"
+                android:layout_alignBottom="@+id/divert_ch"
+                android:layout_toRightOf="@+id/divert_ch"
+                android:gravity="right"
+                android:text="Divert To Phone"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:focusable="true"
+            android:layout_marginLeft="15dp"
+            android:text="Phone Number:"
+            android:textAlignment="gravity"
+            android:textSize="15dp">
+
+            <requestFocus />
+        </TextView>
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="phone"
+            android:maxLength="9"
+            android:maxLines="1"
+            android:textAlignment="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/mail_ch_mess"
+                android:layout_toLeftOf="@+id/mail_ch_mess"
+                android:gravity="right"
+                android:text="ارسال پیام به ایمیل"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/mail_ch_mess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:focusable="true"
+            android:layout_marginLeft="15dp"
+            android:text="ایمیل را وارد کنید:"
+            android:textAlignment="gravity"
+            android:textSize="15dp">
+
+            <requestFocus />
+        </TextView>
+
+        <EditText
+            android:id="@+id/mail_mess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/spec_ch"
+                android:layout_alignBottom="@+id/spec_ch"
+                android:layout_toLeftOf="@+id/spec_ch"
+                android:gravity="right"
+                android:text="دایورت کردن پیامک های شماره ی خاص"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/spec_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="شماره خاص :"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/spec_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="phone"
+            android:maxLength="9"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ac_deac_word_check_mess"
+                android:layout_alignBottom="@+id/ac_deac_word_check_mess"
+                android:layout_toLeftOf="@+id/ac_deac_word_check_mess"
+                android:gravity="right"
+                android:text="قابلیت فعال و غیرفعال کردن از راه دور"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/ac_deac_word_check_mess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="کلمه کلیدی برای فعال یاغیرفعال کردن از راه دور :"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/active_word_mess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/send_mess_word_check"
+                android:layout_alignBottom="@+id/send_mess_word_check"
+                android:layout_toLeftOf="@+id/send_mess_word_check"
+                android:text="فرستادن پیام از گوشی خود از راه دور"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/send_mess_word_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="کلمه کلیدی برای فرستادن پیام از راه دور :"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/sms_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/active_mess"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="5dp"
+            android:text="تایید" />
+
+    </LinearLayout>
+
+</ScrollView>

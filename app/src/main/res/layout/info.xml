@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/info_back">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="470dp"
+            android:src="@drawable/des" 
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="470dp"
+            android:src="@drawable/des1" 
+            android:scaleType="fitXY"/>
+        
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="fill_parent"
+            android:layout_height="450dp"
+            android:src="@drawable/des2"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/teleg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:lineSpacingExtra="3dp"
+            style="@android:style/TextAppearance.Medium"
+            android:background="@drawable/layout_bg_blue"
+            android:text="برای ارتباط و یا فعال سازی ایمیل با بنده در تلگرام تماس بگیرید(بر روی دکمه کلیک کنید)\n09127764165" />
+
+    </LinearLayout>
+
+</ScrollView>

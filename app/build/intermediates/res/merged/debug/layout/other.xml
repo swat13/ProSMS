@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_in">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:columnCount="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/sim_ch"
+                android:layout_alignBottom="@+id/sim_ch"
+                android:layout_toRightOf="@+id/sim_ch"
+                android:gravity="right"
+                android:text=""
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/sim_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/sim_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="18dp"
+            android:gravity="right"
+            android:text="Key word for ring phone"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/ring_aloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:hint="Enter key word"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/active_pos"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="5dp"
+            android:text="Submite" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:background="@drawable/pass_back2">
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/pass_field"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="24dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/ex_pass"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/e" />
+
+        <Button
+            android:id="@+id/ok_pass"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/enter" />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

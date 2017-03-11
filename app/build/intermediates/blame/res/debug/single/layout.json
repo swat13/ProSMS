@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\other.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\other.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\info.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\info.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pass_change.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\pass_change.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mess.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\mess.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\contact.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\call.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\call.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pass.xml",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\layout\\pass.xml"
+    }
+]

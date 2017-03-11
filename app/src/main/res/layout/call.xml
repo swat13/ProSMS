@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_in">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:columnCount="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/call_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/call_ch"
+                android:layout_alignBottom="@+id/call_ch"
+                android:layout_toRightOf="@+id/call_ch"
+                android:gravity="right"
+                android:text="Send Call Log"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:focusable="true"
+            android:gravity="right"
+            android:layout_marginLeft="15dp"
+            android:text="Phone Number"
+            android:textAlignment="gravity"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/call_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gloss_button"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="number"
+            android:maxLength="9"
+            android:maxLines="1"
+            android:textAlignment="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp">
+
+            <CheckBox
+                android:id="@+id/mail_ch_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/mail_ch_call"
+                android:layout_alignBottom="@+id/mail_ch_call"
+                android:layout_toLeftOf="@+id/mail_ch_call"
+                android:gravity="right"
+                android:text="ارسال تماس ها به ایمیل"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:focusable="true"
+            android:layout_marginLeft="15dp"
+            android:text="ایمیل را وارد کنید:"
+            android:textAlignment="gravity"
+            android:textSize="15dp">
+
+            <requestFocus />
+        </TextView>
+
+        <EditText
+            android:id="@+id/mail_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ac_deac_word_check_call"
+                android:layout_alignBottom="@+id/ac_deac_word_check_call"
+                android:layout_toLeftOf="@+id/ac_deac_word_check_call"
+                android:gravity="right"
+                android:text="قابلیت فعال و غیرفعال کردن از راه دور"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/ac_deac_word_check_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="کلمه کلیدی برای فعال یاغیرفعال کردن از راه دور :"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/active_word_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center|center_horizontal"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/active_call"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="5dp"
+            android:text="تایید" />
+
+    </LinearLayout>
+
+</ScrollView>

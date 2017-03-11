@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_in">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:columnCount="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="رمز ورود"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/pass_edi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="رمز ورود"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Hidden code"
+            android:textSize="15dp" />
+
+        <EditText
+             android:visibility="gone"
+            android:id="@+id/hidden_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="رمز مخفی شدن"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Appear Code"
+            android:textSize="15dp" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/unhide_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/gloss_button_text"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Appear Code"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/unistall_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/unistall_ch"
+                android:layout_alignBottom="@+id/unistall_ch"
+                android:layout_toLeftOf="@+id/unistall_ch"
+                android:gravity="right"
+                android:text="عدم پاک شدن برنامه"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/active_pass"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="تایید"
+            android:padding="5dp" />
+    </LinearLayout>
+
+</ScrollView>

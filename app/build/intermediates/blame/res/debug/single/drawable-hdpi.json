@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gloss_button.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\gloss_button.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pass_field.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\pass_field.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\info.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_back.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\info_back.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gloss_button_text.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\gloss_button_text.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\contact.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\contact.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pass_back2.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\pass_back2.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pass.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\pass.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bazaar_icon.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\bazaar_icon.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gloss_button_wid.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-hdpi\\gloss_button_wid.png"
+    }
+]

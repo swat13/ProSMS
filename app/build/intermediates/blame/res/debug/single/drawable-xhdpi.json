@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\mess.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-xhdpi\\mess.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pass_.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-xhdpi\\pass_.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\call.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-xhdpi\\call.png"
+    },
+    {
+        "merged": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\alert.png",
+        "source": "M:\\Others\\WorkSpace(Android_Studio)\\Pro SMS Divert\\app\\src\\main\\res\\drawable-xhdpi\\alert.png"
+    }
+]

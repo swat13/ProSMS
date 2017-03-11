@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="M:\ADT\New_Studio_SDK\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.0_3f45375590fae6894387fde39652c9322dbcc71f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="M:\ADT\New_Studio_SDK\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\pre-dexed\release\support-annotations-21.0.0_3f45375590fae6894387fde39652c9322dbcc71f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.0_2a9accddf42ceeb06faffbc814ba5f3323123556\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\pre-dexed\release\internal_impl-21.0.0_b56001a264b1e8c92a85a3207746d3314511382d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-21.0.0_2a9accddf42ceeb06faffbc814ba5f3323123556.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a5b2cb134e0f8067dab969b122ea74f400afa9fe">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_42c1b76da6a1251e34f20d810feadbc913860c02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.0_b56001a264b1e8c92a85a3207746d3314511382d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0cb4640577c530c10b7002c3516a0db55e97e951">
+        <dex dex="M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c1bd6d60dd80baa5ca708d62373556a9d8e9e16d\classes.dex" />
+    </item>
+
+</items>
