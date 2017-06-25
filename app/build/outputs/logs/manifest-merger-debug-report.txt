@@ -19,7 +19,7 @@ ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\Andro
 		ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:4:5-45
 uses-sdk
 ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-v4:21.0.0] M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\Ali Freidouni\.android\build-cache\e63acdb949c118a48e7a0508c0cff9184af5c830\output\AndroidManifest.xml:15:5-42
 	android:targetSdkVersion
 		ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:10:9-38
 		INJECTED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml
@@ -94,7 +94,7 @@ ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\Andro
 		ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:28:22-78
 application
 ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:31:5-120:19
-MERGED from [com.android.support:support-v4:21.0.0] M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\Ali Freidouni\.android\build-cache\e63acdb949c118a48e7a0508c0cff9184af5c830\output\AndroidManifest.xml:16:5-19
 	android:label
 		ADDED from M:\Others\WorkSpace(Android_Studio)\Pro SMS Divert\app\src\main\AndroidManifest.xml:34:9-41
 	android:allowBackup
